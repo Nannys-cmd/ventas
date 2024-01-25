@@ -1,17 +1,37 @@
-/* src/styles/App.css */
+/* src/App.css */
 
 body {
   margin: 0;
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgb(207, 206, 206); /* Cambiar el color de fondo según tu preferencia */
 }
 
 #root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 640px;
   padding: 2rem;
+  background-color: #ffffff; /* Cambiar el color de fondo del contenedor según tu preferencia */
+  border-radius: 8px; /* Añadir bordes redondeados si lo deseas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra si lo deseas */
+}
+
+h1 {
+  font-size: 3em;
+  color: darkred; /* Cambiar el color del título según tu preferencia */
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: rgb(168, 43, 43);
   text-align: center;
 }
 
@@ -23,11 +43,11 @@ body {
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ac64ffaa);
 }
 
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #dc61fbaa);
 }
 
 @keyframes logo-spin {
@@ -50,6 +70,9 @@ body {
 }
 
 .read-the-docs {
-  color: #888;
+  color: lightpink;
 }
+
+
+
 
